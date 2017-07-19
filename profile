@@ -1,9 +1,9 @@
 source ~/.git-completion.bash
 
 GIT_PS1_SHOWDIRTYSTATE=enabled
-GIT_PS1_SHOWSTASHSTATE=enabled
-GIT_PS1_SHOWUNTRACKEDFILES=enabled
-GIT_PS1_SHOWUPSTREAM=auto
+unset GIT_PS1_SHOWSTASHSTATE
+unset GIT_PS1_SHOWUNTRACKEDFILES
+unset GIT_PS1_SHOWUPSTREAM
 
 source ~/.git-prompt.sh
 
