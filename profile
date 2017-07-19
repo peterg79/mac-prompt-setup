@@ -20,5 +20,4 @@ GITCOLOR="\[\e[0;34m\]"
 REPOCOLOR="\[\e[0;91m\]"
 YROOTCOLOR="\[\e[0;35m\]"
 
-PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
-PS1="[${USERCOLOR}\u${ATCOLOR}@${HOSTCOLOR}\h ${DIRCOLOR}\W${GITCOLOR}$(__git_ps1 " git:(${REPOCOLOR}%s${GITCOLOR})")${NOCOLOR}]${POSTFIX} "
+PS1="[${USERCOLOR}\u${ATCOLOR}@${HOSTCOLOR}\h ${DIRCOLOR}\W${GITCOLOR}\$(__git_ps1 \" git:(${REPOCOLOR}%s${GITCOLOR})\")${NOCOLOR}]${POSTFIX} "
